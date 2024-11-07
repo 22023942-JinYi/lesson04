@@ -1,20 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Exercise01 from './Exercise01';
+import Exercise02 from './Exercise02';
+import Exercise03 from './Exercise03';
+import Exercise04 from './Exercise04';
+import AnimalQuiz from './AnimalQuiz';
+import GetABoat from './GetABoat';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  /*return <Exercise01/>;*/
+  /*return <Exercise02/>;*/
+  /*return <Exercise03/>;*/
+  /*return <Exercise04/>;*/
+  /*return <AnimalQuiz/>;*/
+  return <GetABoat/>;
+
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
